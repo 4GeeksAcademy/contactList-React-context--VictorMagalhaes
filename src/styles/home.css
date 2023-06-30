@@ -1,0 +1,41 @@
+.home_container{
+    background-color: white;
+    margin-top: 40px;
+    font-family:'Quicksand', sans-serif;
+    margin-bottom: 40px;
+}
+.home_title{
+    padding:40px;  
+}
+.add_contact{
+   float: right;
+   height: 20px;
+ 
+}
+.avatar{
+    border-radius: 100px;
+}
+.list-group-item{
+    margin-left: 0px;
+    margin-right: 35px;
+}
+.contact_buttons{
+    margin-left: auto;
+    margin-right: 40px;
+}
+.contact_data{
+    margin-left: 60px;
+}
+
+.contact_name{
+    font-size: 22px;
+    color:black;
+    display: flex;
+    
+
+}
+.contact_data{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}

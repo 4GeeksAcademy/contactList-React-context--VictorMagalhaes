@@ -1,0 +1,29 @@
+.container{
+    background-color:grey;
+    border-radius: 10px;
+    color: white;
+}
+a:link {
+    color: blue;
+    float: right;
+    margin-right: 16%;
+    margin-top: 10px;
+}
+.d-grid{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.newContact{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-family:'Quicksand', sans-serif;
+}
+.AddContact{
+    display: flex;
+    flex-direction: column;
+}

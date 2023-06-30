@@ -12,8 +12,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 					background: "white",
 					initial: "white"
 				}
-			]
+			],
+			agenda:''
 		},
+		
 		actions: {
 			// Use getActions to call a function within a fuction
 			exampleFunction: () => {
@@ -37,6 +39,13 @@ const getState = ({ getStore, getActions, setStore }) => {
 
 				//reset the global store
 				setStore({ demo: demo });
+			},
+			changeAgenda: (newAgenda) => {
+				const store = getStore();
+				setStore({
+					...store,
+					agenda: newAgenda
+				})
 			}
 		}
 	};
